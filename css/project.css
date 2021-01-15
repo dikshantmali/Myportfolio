@@ -1,0 +1,22 @@
+#head{
+	padding-top: 50px;
+height: 300px;
+ color: white;
+
+    background:url('../images/bg-image.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-position: center;
+}
+footer{
+  padding: 10px 0;
+  background-color: #101010;      
+  color:#9d9d9d;     
+  bottom: 0;      
+  width: 100%; 
+}
+.raise{
+  background-color: white;
+  padding: 30px;
+}
