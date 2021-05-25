@@ -2,17 +2,23 @@
 <html>
 <head>
 	<title>My Publications</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
 
 
 	<!--jQuery library--> 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 
 
 	<!--Latest compiled and minified JavaScript--> 
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/publication.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		.scroll {
+			height: 450px;
+    overflow-y: auto;
+}
+	</style>
 </head>
 <body style="background-color: rgba(0,0,0,0.1);">
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -31,7 +37,7 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="https://auth.geeksforgeeks.org/user/dikshantmalidev/articles">GFG Blogs</a></li>
 					
-					<li><a href="about.html">About</a></li>
+					<li><a href="#">About</a></li>
 					<li><a href="project.html">Projects</a></li>
 					<li><a href="resume.html">Resume</a></li>
 					<li><a href="certificate.html">Certifications</a></li>
@@ -48,19 +54,117 @@
 					<h1 style="font-size: 60px;color: white;">My Publications</h1>
 				</div>
 				<div class="hidden-xs hidden-sm col-sm-4">
-					<img style="padding-top: 20px;margin-left: 80px;" height="240" src="images/loading.gif">
+					<img style="padding-top: 20px;margin-left: 80px;" height="240" src="images/publication.gif">
 				</div>
 			</div>
 		</div>
 	</div>
 	<br><br><br>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<center><img class="img-responsive" src="images/error.png"></center>
-			</div>
+	
+
+<div class="container">
+<h2>❗ Task AWS Certified Solutions Architect (CSA) ❗</h2>
+<br>
+<div class="row">
+	<div class="col-md-4 col-sm-6 ">
+		<div style="padding: 20px;" class="thumbnail scroll">
+			<img src="posts/aws lw/task1.gif" class="img-fluid">
+			<br>
+			<h2>AWS CSA TASK 1</h2>
+			<p>Read at least one case study or stories of companies that got 
+				benefitted from AWS according to your interest field and then create a blog/article of the same.</p>
+			<br>
+			<a href="#" class="btn btn-primary">View Task</a>
+		<br>
 		</div>
+
 	</div>
+	<div class="col-md-4 col-sm-6 ">
+		<div style="padding: 20px;" class="thumbnail scroll">
+			<img src="posts/aws lw/task2.gif" class="img-fluid">
+			<br>
+			<h2>AWS CSA TASK 2</h2>
+			<ul>
+				<li>1. Create a key pair </li>
+				<li>2. Create a security group</li>
+				<li>3. Launch an instance using the above created key pair and security group.</li>
+				<li>4. Create an EBS volume of 1 GB.</li>
+				<li>5. The final step is to attach the above created EBS volume to the instance you created in the previous steps.</li>
+			</ul>
+			<br>
+			<a href="https://www.linkedin.com/pulse/task-aws-csa-developer-track-dikshant-mali/" class="btn btn-primary">View Task</a>
+		<br>
+		</div>
+
+	</div>
+
+	<div class="col-md-4 col-sm-6 ">
+		<div style="padding: 20px;" class="thumbnail scroll">
+			<img src="posts/aws lw/task3.gif" class="img-fluid">
+			<br>
+			<div style="overflow: auto;">
+
+			<h2>AWS CSA TASK 3</h2>
+			<ul>
+				<li>1.Create an AWS EC2 instance  </li>
+				<li>2.Configure the instance with Apache Webserver</li>
+				<li>3.Download php application name "WordPress".</li>
+				<li>4.As wordpress stores data at the backend in MySQL  Therefore, 
+					you need to setup a MySQL server using AWS RDS service using Free Tier.</li>
+				<li>Provide the endpoint/connection string to the
+					WordPress application to make it work. </li>
+			</ul>
+			<br>
+			<a href="#" class="btn btn-primary">View Task</a>
+		<br>
+		</div>
+		</div>
+
+	</div>
+
+
+
+	<div class="col-md-4 col-sm-6 ">
+		<div style="padding: 20px;" class="thumbnail scroll">
+			<img src="posts/aws lw/task4.gif" class="img-fluid">
+			<br>
+			<h2>AWS CSA TASK 4</h2>
+			<p>Research on industrial use cases of AWS SQS and create a blog/article for the same.</p>
+			<br>
+			<a href="#" class="btn btn-primary">View Task</a>
+		<br>
+		</div>
+
+	</div>
+
+
+
+	<div class="col-md-4 col-sm-6 ">
+		<div style="padding: 20px;" class="thumbnail scroll">
+			<img src="posts/aws lw/task5.gif" class="img-fluid">
+			<br>
+			<h2>AWS CSA TASK 5</h2>
+			<h4>Create High Availability Architecture with AWS CLI</h4>
+			<ul>
+				<li>Webserver configured on EC2 Instance  </li>
+				<li>Document Root(/var/www/html) made persistent by mounting on EBS Block Device.</li>
+				<li>Static objects used in code such as pictures stored in S3</li>
+				<li>Setting up Content Delivery Network using CloudFront and using the origin domain as S3 bucket.</li>
+				<li>Finally place the Cloud Front URL on the webapp code for security and low latency.</li>
+			</ul>
+			<br>
+			<a href="https://www.linkedin.com/pulse/task-2-create-high-availability-architecture-aws-cli-dikshant-mali/" class="btn btn-primary">View Task</a>
+		<br>
+		</div>
+
+	</div>
+</div>
+</div>
+
+
+
+
+
 	<br><br><br>
 <footer >
 	<div class="container">
