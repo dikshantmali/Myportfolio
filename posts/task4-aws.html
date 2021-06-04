@@ -41,9 +41,21 @@
 					<br>
 					
 					<p>
-                        AWS SQS stands for simple queue service.
+                        AWS SQS stands for simple queue service. It is managed service by aws that helps you to manage message queue.
+The message queue is a special program that runs between 2 diffrent program(as a middleware) or services in case of AWS. For example, let's say
+we have one e-commerce website that sells beauty product and we have a mail server in our architecture that sends a mail to to the customer
+on each succesful purchase. But since our architecture doesn,t have 100% hive availability so we might face some issue in mail server and 
+our customer eill not recieve any mail. In such scenario we use <b>message queue</b> program that holds the message from the application server(producer)
+till the time the mail server(consumer) is not up. 
+
+					</p>
+					<p>
+						The SQS service provided by aws cloud helps us to use message queue. In SQS aws allows us to store data persistantly for 
+						14 days which is sufficient for us. RabbitMQ, Apache MQ are opensourc product available that we can use for MQ facility.
+
 					</p>
 					
+
 					<h2 class="section-heading">How AWS helps Dream11 to achieve 99.99% Uptime</h2>
 					
 					
