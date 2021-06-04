@@ -41,22 +41,34 @@
 					<br>
 					
 					<p>
-                        AWS SQS stands for simple queue service. It is managed service by aws that helps you to manage message queue.
-The message queue is a special program that runs between 2 diffrent program(as a middleware) or services in case of AWS. For example, let's say
-we have one e-commerce website that sells beauty product and we have a mail server in our architecture that sends a mail to to the customer
-on each succesful purchase. But since our architecture doesn,t have 100% hive availability so we might face some issue in mail server and 
-our customer eill not recieve any mail. In such scenario we use <b>message queue</b> program that holds the message from the application server(producer)
+                        AWS SQS stands for simple queue service. It is managed service by AWS that helps you to manage message queues.
+The message queue is a special program that runs between 2 different programs (as a middleware) or services in the case of AWS. For example, let's say
+we have one e-commerce website that sells beauty products and we have a mail server in our architecture that sends a mail to the customer
+on each successful purchase. But since our architecture doesn't have 100% hive availability so we might face some issues with the mail server and our customers will not receive any mail. In such a scenario we use <b>message queue</b> program that holds the message from the application server(producer)
 till the time the mail server(consumer) is not up. 
 
 					</p>
 					<p>
-						The SQS service provided by aws cloud helps us to use message queue. In SQS aws allows us to store data persistantly for 
-						14 days which is sufficient for us. RabbitMQ, Apache MQ are opensourc product available that we can use for MQ facility.
+						The SQS service provided by AWS cloud helps us to use a message queue. In SQS AWS allows us to store data persistently for 
+                        14 days which is sufficient for us. RabbitMQ, Apache MQ are open source products available that we can use for the MQ facility.
 
 					</p>
 					
 
-					<h2 class="section-heading">How AWS helps Dream11 to achieve 99.99% Uptime</h2>
+					<h2 class="section-heading">Industrial use cases of AWS SQS</h2>
+					<ul>
+						<li>
+							For communication between mobile app and web app
+						</li>
+						<p style="padding-left: 20px;">
+							In the real world whenever a mobile app wants to communicate to the web app message queue are used.
+                            AWS SDK is used by both mobile and web apps to pull and send messages to the SQS. Let's say if the mobile app has sent a message to the message queue then with the help of AWS SDK the web app will pull the messages from the queue and sends the feedback to the message queue so that the queue can delete it since it is consumed by the web app. This is one of the use case
+                            where er can use AWS SQS to provide communication between a mobile and a web app.
+						</p>
+						<li>
+							
+						</li>
+					</ul>
 					
 					
 				</div>
