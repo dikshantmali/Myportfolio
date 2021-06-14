@@ -17,6 +17,9 @@ footer{
   width: 100%; 
 }
 .raise{
+  margin: 10px;
+  padding-top: 20px;
   background-color: white;
-  padding: 30px;
+  box-shadow: 0 0 1px;
+  border-radius: 2px;
 }
